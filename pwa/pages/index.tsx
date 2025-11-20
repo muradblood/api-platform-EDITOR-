@@ -101,6 +101,7 @@ const Welcome = () => (
           <div className="flex justify-center flex-wrap | lg:justify-start lg:grid lg:gap-5 lg:grid-cols-2">
             <Card image={apiPicture} title="API" url="/docs" />
             <Card image={adminPicture} title="Admin" url="/admin" />
+            <Card image={rocketPicture} title="Saudi routes demo" url="/trips" />
             <Card
               image={mercurePicture}
               title="Mercure debugger"
