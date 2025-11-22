@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import { resolveEntrypoint } from "../../config/entrypoint";
 
 const Admin = () => {
   // Load the admin client-side
@@ -8,7 +9,9 @@ const Admin = () => {
     (async () => {
       const HydraAdmin = (await import("@api-platform/admin")).HydraAdmin;
 
-      setDynamicAdmin(<HydraAdmin entrypoint={window.origin}></HydraAdmin>);
+      setDynamicAdmin(
+        <HydraAdmin entrypoint={resolveEntrypoint()}></HydraAdmin>
+      );
     })();
   }, []);
 
