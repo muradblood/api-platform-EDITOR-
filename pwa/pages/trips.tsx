@@ -218,14 +218,14 @@ const TripPlanner = () => {
         <p className="text-cyan-100 max-w-3xl">
           تصفَّح قائمة من المدن ومحطات النقل الرئيسية في السعودية، وحدد مسارك ليتم توليد الرحلات المتاحة تلقائياً في
           كلا الاتجاهين. جرّب المسار من الرياض إلى جدة للتأكد من الانتقال إلى قائمة الرحلات ثم مشاهدة خطوة التأكيد
-          الأخيرة.
+          الأخيرة مع ملخص الحجز.
         </p>
       </header>
 
       <main className="container mx-auto px-5 pb-16 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-start">
         <section className="bg-white text-slate-900 rounded-3xl shadow-2xl p-6 lg:p-8">
           <h2 className="text-2xl font-bold mb-4">تخطيط الرحلة</h2>
-          <p className="text-slate-600 mb-6">اختَر نقطة الانطلاق والوصول من القائمة المتاحة أدناه لتوليد مسارات جاهزة للاختبار.</p>
+          <p className="text-slate-600 mb-6">اختر نقطة الانطلاق والوصول من القائمة المتاحة أدناه لتوليد مسارات جاهزة للاختبار.</p>
           <div className="grid gap-5 md:grid-cols-2">
             <label className="flex flex-col text-sm font-semibold text-slate-700">
               من (المدينة)

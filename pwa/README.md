@@ -15,5 +15,5 @@ Set `NEXT_PUBLIC_API_ENTRYPOINT` to point the PWA to the correct API URL. When t
 The `/trips` page provides a demo flow that lists transport stations across major Saudi cities and generates bidirectional routes. For QA:
 
 1. Open `/trips` and choose **Riyadh** as the origin and **Jeddah** as the destination from the dropdowns.
-2. Pick any listed trip to reveal the booking summary on the right-hand panel.
-3. Confirm the displayed operator, stations, timing, and fare to validate the final-step experience.
+2. Pick any listed trip to reveal the booking summary on the right-hand panel (it should mirror the chosen operator, stations, timing, and fare).
+3. Use the populated summary to validate the final-step experience before redirecting to your payment or ticketing flow.
