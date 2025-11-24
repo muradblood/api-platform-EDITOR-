@@ -45,6 +45,16 @@ It means that you can:
 
 [Read the official "Getting Started" guide](https://api-platform.com/docs/distribution).
 
+## Cloning the `Satrnasb/zaidblooders` repository
+
+Use the helper script to clone the repository with the [GitHub CLI](https://cli.github.com/):
+
+```bash
+./scripts/clone-zaidblooders.sh [target-directory]
+```
+
+The script checks that `gh` is installed, avoids overwriting existing paths, and defaults to cloning into a `zaidblooders` folder when no target directory is provided.
+
 ## Credits
 
 Created by [Kévin Dunglas](https://dunglas.fr). Commercial support available at [Les-Tilleuls.coop](https://les-tilleuls.coop).
